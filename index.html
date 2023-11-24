@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- Corrected content attribute -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Shop</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    
+    <link href="https://fonts.googleapis.com/css?family=adorage" rel="stylesheet">
+
+    <style>
+
+        body {
+            font-family: 'adorage', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+    </style>
+
+</head>
+<body>
+
+    <audio id="song">
+    <source src="audio.mp3">
+    </audio>
+
+    <!---Navbar-->
+    <header class="header">
+
+        <a href="" class="logo"><img src="logo.png" alt=""></a>
+
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#about">About Us</a>
+            <a href="#menu">Menu</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+
+        
+    </header>
+
+    <!--home section stars-->
+
+    <section class="home" id="home">
+
+        <div class="content">
+            <h3>Love You A Latte</h3>
+            <p><br>Love them a lot? Buy them a Latte</br></p>
+            <a href="#" class="btn">Get Yours Now</a>
+        </div>
+    </section>
+    
+
+    <!--home section ends-->
+
+    <!--about section starts-->
+
+    <section class="about" id="about">
+
+        <h1 class="heading">
+            <span>About </span><span class="highlight">us</span>
+        </h1>
+        
+     
+        <div class="row">
+     
+            <div class="video-container">
+     
+                <video src="about.mp4" loop autoplay muted></video>
+     
+            </div>
+     
+            <div class="content">
+     
+                <h3> Step into Love You A Latte, where every sip tells a tale of warmth and familiarity. </h3>
+                <p> Love You A Latte isn't just a coffee shop; it's a sanctuary crafted to envelop you 
+                    in a cozy embrace. Since our opening in 2016, we've been on a mission to create a haven that feels like home—a place where the aroma of freshly brewed coffee intertwines with the comfort of a welcoming atmosphere.</p>
+                <a href="#" class="btn">learn more</a>
+     
+            </div>
+        </div>
+    </section>
+    
+
+    <!--about section ends-->
+
+    <!--menu section starts-->
+
+    <section class="menu" id="menu">
+
+        <h1 class="heading">
+             <span> Our </span><span class="highlight">Menu</span>
+        </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+
+                <img src="menu1.jpg" alt="">
+                <h3>Strawberry Parfait</h3>
+                <div class="price">
+                    RM13.50 <span class="span">15.50</span>
+                </div>
+                <a href="#" class="btn">addto cart</a>
+
+            </div>
+
+            <div class="box">
+
+                <img src="menu2.jpg" alt="">
+                <h3>Latte</h3>
+                <div class="price">
+                    RM13.50 <span class="span">15.50</span>
+                </div>
+                <a href="#" class="btn">addto cart</a>
+
+            </div>
+
+            <div class="box">
+
+                <img src="menu3.jpg" alt="">
+                <h3>Mango Smoothie</h3>
+                <div class="price">
+                    RM10.50 <span class="span">13.50</span>
+                </div>
+                <a href="#" class="btn">addto cart</a>
+
+            </div>
+
+            <div class="box">
+
+                <img src="menu4.jpg" alt="">
+                <h3>Mini Souffle</h3>
+                <div class="price">
+                    RM13.50 <span class="span">15.50</span>
+                </div>
+                <a href="#" class="btn">addto cart</a>
+
+            </div>
+
+            <div class="box">
+
+                <img src="menu5.jpg" alt="">
+                <h3>Blue Orangeade</h3>
+                <div class="price">
+                    RM14.50 <span class="span">17.50</span>
+                </div>
+                <a href="#" class="btn">addto cart</a>
+
+            </div>
+
+            <div class="box">
+
+                <img src="menu6.jpg" alt="">
+                <h3>Blueberry Cloud</h3>
+                <div class="price">
+                    RM12.50 <span class="span">14.50</span>
+                </div>
+                <a href="#" class="btn">addto cart</a>
+
+            </div>
+
+            <div class="box">
+
+                <img src="menu7.jpg" alt="">
+                <h3>Soda Herb</h3>
+                <div class="price">
+                    RM13.50 <span class="span">15.50</span>
+                </div>
+                <a href="#" class="btn">addto cart</a>
+
+            </div>
+
+            <div class="box">
+
+                <img src="menu8.jpg" alt="">
+                <h3>Pomegranate Appleade</h3>
+                <div class="price">
+                    RM13.50 <span class="span">15.50</span>
+                </div>
+                <a href="#" class="btn">addto cart</a>
+
+            </div>
+
+            <div class="box">
+
+                <img src="menu9.jpg" alt="">
+                <h3>Boba Milk Tea</h3>
+                <div class="price">
+                    RM12.50 <span class="span">14.50</span>
+                </div>
+                <a href="#" class="btn">addto cart</a>
+
+            </div>
+
+        </div>
+
+        </div>
+
+    </section>
+
+    <!--menu section ends-->
+
+    <!--contact section starts-->
+
+    <section class="contact" id="contact">
+
+        <h1 class="heading">
+            <span>Contact </span><span class="highlight">Us</span>
+        </h1>
+
+        <div class="row">
+
+            <iframe class="map-src" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.5981594874734!2d100.
+            27498649999997!3d6.445610099999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x304ca
+            293e55f5bb9%3A0x5d96f84b4708cc7!2sUiTM%20Cawangan%20Perlis%20Kampus%20Arau!5e0!3m2!1sen!2smy!
+            4v1700828251243!5m2!1sen!2smy" allowfullscreen="" loading="lazy"></iframe>
+
+
+            <form action="">
+
+                <h3>get in touch</h3>
+
+                <div class="inputBox">
+
+                    <span class="fas fa-user"></span>
+                    <input type="text" placeholder="Name" class="box">
+
+                </div>
+
+                <div class="inputBox">
+
+                    <span class="fas fa-envelope"></span>
+                    <input type="email" placeholder="Email" class="box">
+
+                </div>
+
+                <div class="inputBox">
+
+                    <span class="fas fa-phone"></span>
+                    <input type="number" placeholder="Number" class="box">
+
+                </div>
+                <input type="submit" value="contact now" class="btn">
+
+            </form>
+
+        </div>
+
+    </section>
+
+    <!--contact section ends-->
+
+    <!--footer section stars-->
+
+    <section class="footer">
+        <div class="share">
+            <a href="#" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-linkedin"></a>
+            <a href="#" class="fab fa-pinterest"></a>
+        </div>
+        <div class="links">
+            <a href="#home">home</a>
+            <a href="#about">about</a>
+            <a href="#menu">menu</a>
+            <a href="#contact">contact</a>
+        </div>
+        <div class="credit"> created by <span>Captainncookies6</span> | all rights reserved</div>
+    </section>
+    
+
+    <!--footer section ends-->
+
+    <input type="text" id="nameInput" placeholder="Enter your name">
+    <button id="greetButton">Greet Me!</button>
+
+    <script>
+
+        function greetUser(name) {
+        alert('Hello, ' + name + '!');
+    }
+
+    function checkAge(age) {
+    if (isNaN(age)) {
+        alert('Please enter a valid age.');
+    } else if (age >= 18) {
+        alert('You are eligible to enter the Coffee Shop!');
+    } else {
+        alert('Sorry, you must be 18 or older to enter the Coffee Shop.');
+    }
+}
+
+    window.addEventListener('click', () => {
+        document.getElementById("song").play();
+    });
+
+
+    document.addEventListener('DOMContentLoaded', function () {
+        var greetButton = document.getElementById('greetButton');
+        var nameInput = document.getElementById('nameInput');
+
+        greetButton.addEventListener('click', function () {
+            var userName = nameInput.value;
+
+            greetUser(userName);
+        });
+
+        checkAge(20);
+    });
+
+    </script>
+
+</body>
+</html>
